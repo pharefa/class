@@ -22,11 +22,11 @@ img{
     max-width:100%;
 }
  .layout{
-     background-color: whitesmoke;
+
      border: black;
      border-radius: 40%;
-     max-width: 120px;
-     padding: 40px;
+     max-width: 800px;
+     padding: 400px;
      margin-left: auto;
      margin-right: auto;
  }
@@ -34,7 +34,7 @@ body
 {
     background-color:rgb(255, 241, 217);
 }
-h1 { color:midnightblue;
+h1 { color:lightskyblue ;
 }
 h4 { color:dodgerblue;
 }
@@ -98,7 +98,7 @@ h2{
     font-family:Arial, Helvetica, sans-serif;
 }
 p {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 caption{
@@ -137,10 +137,6 @@ title{
 }
 
 
-table 
-    position: absolute;
-    left: 0;
-    bottom: 0;
 }
 .info {
     width: 25%;
@@ -150,7 +146,28 @@ table
 }
 .vid1{
     width: 220px;
+
 }
 .vid2{
     width: 220px;
+
+}
+@media screen and (min-width)
+{    
+
+.news-comp{
+    background-color: lightskyblue;
+    padding: 20px;
+    padding:palegoldenrod;
+
+}
+}
+.content-box{
+background-color: white;
+padding: 20px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.caps{
+    float: left;
 }
