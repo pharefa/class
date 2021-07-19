@@ -128,12 +128,9 @@ article {
   margin-right: auto;
 }
 
-@media screen and (min-width) {
-  .news-comp {
-    background-color: lightskyblue;
-    padding: 20px;
-    padding: palegoldenrod;
-  }
+@media screen and (min-width) 
+{
+
 }
 .content-box {
   background-color: whitesmoke;
