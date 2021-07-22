@@ -73,11 +73,21 @@ a:hover {
 .mainhead {
   background-color: azure;
   text-align: center;
-  padding: 40px;
+  
+  position: relative;
+    height: 400px;
+    overflow: hidden;
 
 
 }
 
+
+.header-vid {
+  width: 100%;
+  position: absolute;
+    left: 0;
+    top: 0;
+}
 
 
 .linkhead {
@@ -165,3 +175,6 @@ article {
   grid-template-columns: 1fr;
   max-width: 500px;
 }
+
+
+/* modules and individual stuff */
