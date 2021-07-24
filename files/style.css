@@ -1,5 +1,5 @@
 /* Global */
-
+/* https://codepen.io/meeum/pen/vYmeJxK?editors=1100 /*
 @import url(normalize.css);
 
 /* Headings and typography */
@@ -10,7 +10,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+.headertext {
   font-family: "Source Serif Pro", serif;
   letter-spacing: -1px;
   font-weight: normal;
@@ -24,7 +25,8 @@ body {
   font-family: "Roboto Slab", serif;
   font-size: 0.8rem;
 }
-h1 {
+h1,
+.headertext {
   font-size: 4rem;
   color: #2f0a5c;
 }
@@ -71,7 +73,7 @@ a:hover {
 }
 /* header */
 .mainhead {
-  background-color: azure;
+  background-color: transparent;
   text-align: center;
   
   position: relative;
@@ -80,13 +82,22 @@ a:hover {
 
 
 }
-
-
-.header-vid {
-  width: 100%;
+.headerlogo{
+  max-width: 80px;
+}
+.headertext{
   position: absolute;
+  top: 0;
+  bottom: 0px;
+  left: 0;
+  right: 0px;
+  
+}
+.header-vid { 
+  width: 100%;
+  position: relative;
     left: 0;
-    top: 0;
+    top: -80px;
 }
 
 
@@ -175,6 +186,28 @@ article {
   grid-template-columns: 1fr;
   max-width: 500px;
 }
+.vdeocon{
 
 
+    border: 5px solid green;
+    height: 400px;
+    width: auto;
+    max-width: 100%;
+    position: relative;
+  }
+
+}
+@media screen and (min-width) 
+{
+.vidhero /* fix this shit */
+{
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  top: 0;
+  bottom: 0px;
+  left: 0;
+  right: 0px;
+    
+} /*
 /* modules and individual stuff */
