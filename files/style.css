@@ -1,5 +1,6 @@
 /* Global */
-/* https://codepen.io/meeum/pen/vYmeJxK?editors=1100 /*
+/* https://codepen.io/meeum/pen/vYmeJxK?editors=1100
+https://codepen.io/meeum/pen/ZEKxvPa /*
 @import url(normalize.css);
 
 /* Headings and typography */
@@ -21,7 +22,7 @@ html {
   line-height: 1.4;
 }
 body {
-  background-color: #eeecd7;
+  background-color: #efecd6;
   font-family: "Roboto Slab", serif;
   font-size: 0.8rem;
 }
@@ -53,7 +54,7 @@ a {
   color: rgb(41, 41, 53);
 }
 a:visited {
-  color: rgb(214, 203, 43);
+  color: rgb(121, 82, 51);
 }
 
 a:hover {
@@ -82,9 +83,8 @@ a:hover {
 
 
 }
-.headerlogo{
-  max-width: 80px;
-}
+
+
 .headertext{
   position: absolute;
   top: 0;
@@ -99,22 +99,55 @@ a:hover {
     left: 0;
     top: -80px;
 }
-
-
-.linkhead {
-  background-color: #d64e4e;
+.linkheadhome  {
+  background-color: #faa94d;
   text-align: center;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.intro {
-  border: black;
-  border-radius: 40%;
+.linkhead  {
+  background-color: #faa94d;
   text-align: center;
-  padding: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.h2intro{
+  text-align: center;
+}
+@media screen and (min-width: 600px)
+{
+.intro {
+ background: whitesmoke;
+  text-align: center;
+
+
+      
+      grid-template-columns: 1fr 1fr;
+      margin-bottom: var(--vertical-spacer);
+  
   margin-left: auto;
   margin-right: auto;
+
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+    padding-bottom: 10px;
+ 
+}
+.intro p{
+  bottom: 0;
+}
+.intro img{
+  max-width: 100%;
+  position: relative;
+    left: 0;
+}
+
+
 }
 /* navigation*/
 
@@ -126,8 +159,8 @@ footer {
 }
 /* modules */
 
-.fdd {
-  text-align: center;
+.first{
+  margin-right: auto;
 }
 img {
   margin-left: auto;
@@ -135,16 +168,53 @@ img {
   max-width: 100%;
   padding: px;
 }
+
+@media screen and (min-width: 600px)
+{
+   
+ 
 .layoutrooms {
   border: black;
   border-radius: 40%;
-  max-width: 800px;
+  max-width: 1200px;
   padding: 100px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 0px;
 }
-article {
-  padding-right: 10px;
+ }
+.expl{
+  background-color: whitesmoke;
+  text-align: left;
+  display: flex;
+  padding-bottom: 10px;
+  padding-top: 25px;
+}
+
+.expl img{
+  overflow: hidden;
+  object-fit: cover;
+}
+.expl p{
+  text-align: center;
+}
+.why p{
+  position: relative;
+  color: aliceblue;
+  text-align: center;
+  bottom: -130px;
+}
+.why{
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  background-color:rgb(0 59 149) ; /* or rgb(0, 19, 83); */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+.caps{
+  padding: 7px;
 }
 
 .title1 {
@@ -153,16 +223,19 @@ article {
   margin-left: auto;
   margin-right: auto;
 }
-
-@media screen and (min-width) 
-{
-
-}
 .content-box {
-  background-color: whitesmoke;
+  background-color: rgb(233, 233, 233);
   padding: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  }
+@media screen and (max-width:600px) 
+{
+.content-box{
+  grid-template-columns: 1fr;
+}
+}
+
 }
 .content-box2 .vid {
   background-color: whitesmoke;
@@ -184,30 +257,39 @@ article {
   margin-right: auto;
   display: grid;
   grid-template-columns: 1fr;
-  max-width: 500px;
+  max-width: 10px;
 }
-.vdeocon{
+.videocon{
 
 
-    border: 5px solid green;
-    height: 400px;
-    width: auto;
-    max-width: 100%;
-    position: relative;
-  }
 
 }
-@media screen and (min-width) 
-{
-.vidhero /* fix this shit */
-{
-  width: fit-content;
-  height: fit-content;
-  position: relative;
-  top: 0;
-  bottom: 0px;
-  left: 0;
-  right: 0px;
-    
-} /*
-/* modules and individual stuff */
+
+
+
+  .hero{ 
+    position:relative;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+
+}
+
+footer{
+  height: 50px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  object-fit: cover;
+  
+}
+footer img{
+  overflow: hidden;
+  
+  object-fit: cover;
+}
+}
+
