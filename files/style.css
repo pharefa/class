@@ -244,7 +244,7 @@ img {
   margin-right: auto;
 }
 .content-box {
-  background-color: rgb(233, 233, 233);
+  background-color:whitesmoke;
   padding: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
