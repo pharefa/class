@@ -5,7 +5,7 @@ https://codepen.io/meeum/pen/ZEKxvPa */
 
 /* Headings and typography */
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&family=family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto&display=swap");
 
 h1,
 h2,
@@ -133,7 +133,7 @@ a:hover {
 {
 .intro {
  background: whitesmoke;
-  text-align: center;
+  text-align: left;
 
 
       
