@@ -300,3 +300,14 @@ footer img{
 }
 
 
+.aboutus{
+background-color: whitesmoke;
+  border-radius: 3px;
+  text-align: center;
+
+  max-width: 1200px;
+  padding: 160px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 0px;
+}
